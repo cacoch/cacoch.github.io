@@ -1,0 +1,24 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'maverick'
+
+[params]
+  logo = '/assets/favicon.ico'
+  description = "A minimal hugo theme focus on content"
+  author = 'Calvin Tran'
+  items = 10
+
+
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = "-110"
+  [[menu.main]]
+    identifier = "posts"
+    name = "Post"
+    url = "/posts/"
+    weight = -200
