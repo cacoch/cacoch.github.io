@@ -1,12 +1,14 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://cacoch.github.io/'
 languageCode = 'en-us'
+
+
 title = 'My New Hugo Site'
 theme = 'maverick'
 
 [params]
   logo = '/assets/favicon.ico'
   description = "A minimal hugo theme focus on content"
-  author = 'Calvin Tran'
+  author = 'Cacoch'
   items = 10
 
 
