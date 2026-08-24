@@ -24,3 +24,10 @@ theme = 'maverick'
     name = "Post"
     url = "/posts/"
     weight = -200
+
+[security.exec]
+    allow = ['^asciidoctor$']
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
