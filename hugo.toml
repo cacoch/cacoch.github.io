@@ -3,7 +3,7 @@ languageCode = 'en-us'
 
 
 title = 'My New Hugo Site'
-theme = 'maverick'
+theme = 'archie'
 
 [params]
   logo = '/assets/favicon.ico'
