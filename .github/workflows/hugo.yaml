@@ -104,6 +104,14 @@ jobs:
             npm ci
           fi
 
+      - name: Setup Asciidoctor
+        run: |
+          gem install asciidoctor
+          gem install asciidoctor-html5s
+          gem install asciidoctor-diagram
+          . ./wrap_asciidoc.sh
+          asciidoctor --version
+
       - name: Cache restore
         id: cache-restore
         uses: actions/cache/restore@v6
