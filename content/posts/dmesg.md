@@ -14,6 +14,7 @@ in general setup:
 
  CONFIG_LOG_BUF_SHIFT
 
-The size of the buffer is 2^CONFIG_LOG_BUF_SHIFT bytes
+The size of the buffer is 2^CONFIG_LOG_BUF_SHIFT bytes.
 
-Note that if you've passed a kernel boot param log_buf_len=N (check using cat /proc/cmdline) then that overrides the value in the config file.
+Note that if you've passed a kernel boot param log_buf_len=N (check using cat 
+/proc/cmdline) then that overrides the value in the config file.
