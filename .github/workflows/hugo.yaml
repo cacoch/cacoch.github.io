@@ -109,7 +109,6 @@ jobs:
           sudo gem install asciidoctor
           sudo gem install asciidoctor-html5s
           sudo gem install asciidoctor-diagram
-          . ./wrap_asciidoc.sh
           asciidoctor --version
 
       - name: Cache restore
